@@ -6,6 +6,7 @@ Consultar Estado de Boletas de forma Masiva
 Introducción
 ------------
 Esta función permite realizar la consulta masiva de un rango de boletas de venta por Emisor.
+
 En tan solo segundos puede obtener el resultado del estado de cientos de boletas.
 
 Métodos para realizar la Integración

@@ -18,6 +18,13 @@ La integración de esta función se puede realizar por 2 mecanismos
 2. [JSON] Consulta Masiva con Datos JSON
 
 
+Método 1 : [TXT] Consulta Masiva con Archivo Txt
+------------------------------------------------
+Para este método se debe crear un archivo de texto plano con el formato requerido.
+
+Pasos a seguir:
+
+
 Para realizar el envío del archivo Txt a la Api se debe utilizar el siguiente comando curl:
 ```
 curl --form "archivito=@archivo.txt" https://dominio.cl/api/factronica_boleta_consultamasiva/index.php

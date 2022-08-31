@@ -18,5 +18,7 @@ La integración de esta función se puede realizar por 2 mecanismos
 
 
 Para realizar el envío del archivo Txt a la Api se debe utilizar el siguiente comando curl:
-```curl --form "archivito=@archivo.txt" https://dominio.cl/api/factronica_boleta_consultamasiva/index.php
+```
+curl --form "archivito=@archivo.txt" https://dominio.cl/api/factronica_boleta_consultamasiva/index.php
+
 ```

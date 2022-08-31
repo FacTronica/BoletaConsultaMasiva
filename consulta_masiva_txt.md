@@ -10,8 +10,8 @@ Pasos a seguir:
 Paso 1:
 -------
 Crear un archivo de texto plano con el formato requerido.
-En este archivo se deben incluir los datos de todas las boletas que se requiere consultar.
-Aquí un ejemplo del formato del archivo plano:
+<br>En este archivo se deben incluir los datos de todas las boletas que se requiere consultar.
+<br>Aquí un ejemplo del formato del archivo plano:
 
 https://github.com/FacTronica/BoletaConsultaMasiva/blob/main/txt_consultarfolio_masivo.php
 
@@ -19,8 +19,8 @@ https://github.com/FacTronica/BoletaConsultaMasiva/blob/main/txt_consultarfolio_
 Paso 2:
 -------
 Enviar el archivo txt a la url de la api.
-El envío del txt se debe realizar vía post upload file.
-Para realizar el envío del archivo Txt con la librería curl se utiliza el siguiente comando:
+<br>El envío del txt se debe realizar vía post upload file.
+<br>Para realizar el envío del archivo Txt con la librería curl se utiliza el siguiente comando:
 
 ```
 

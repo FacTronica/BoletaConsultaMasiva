@@ -36,7 +36,7 @@ c:\curl\curl.exe --form "archivito=@c:\curl\archivo.txt" https://dominio.cl/api/
 Paso 3:
 -------
 Recuperar el archivo de texto plano con el resultado de las boletas consultadas.
-Para recuperar el archivo Txt con la librería curl se utiliza el siguiente comando:
+<br>Para recuperar el archivo Txt con la librería curl se utiliza el siguiente comando:
 
 ```
 
@@ -49,3 +49,21 @@ c:\curl\curl.exe --form -o c:\curl\resultado.txt https://dominio.cl/api/factroni
 
 ```
 
+El resultado con la respuesta masiva del archivo resultado.txt tiene el siguiente formato
+
+```
+
+{'ESTADO':'OK','FOLIO':'1163','TIPO':'39'}
+{'ESTADO':'OK','FOLIO':'1164','TIPO':'39'}
+{'ESTADO':'ERROR','FOLIO':'1165','TIPO':'39'}
+{'ESTADO':'ERROR','FOLIO':'1166','TIPO':'39'}
+{'ESTADO':'OK','FOLIO':'1167','TIPO':'39'}
+{'ESTADO':'OK','FOLIO':'1168','TIPO':'39'}
+{'ESTADO':'OK','FOLIO':'1169','TIPO':'39'}
+{'ESTADO':'OK','FOLIO':'1170','TIPO':'39'}
+{'ESTADO':'OK','FOLIO':'1171','TIPO':'39'}
+{'ESTADO':'OK','FOLIO':'1172','TIPO':'39'}
+{'ESTADO':'OK','FOLIO':'1173','TIPO':'39'}
+
+
+```

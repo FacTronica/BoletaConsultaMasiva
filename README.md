@@ -11,22 +11,20 @@ En tan solo segundos puede obtener el resultado del estado de cientos de boletas
 
 Métodos para realizar la Integración
 ------------------------------------
-La integración de esta función se puede realizar por 2 mecanismos
+La integración de esta función se puede realizar por 2 mecanismos.
 
 1. [TXT] Consulta Masiva con Archivo Txt
+<br>Aquí puede ver las instrucciones para integrar por medio de Archivos Txt
+<br>https://github.com/FacTronica/BoletaConsultaMasiva/blob/main/consulta_masiva_txt.md
 
 2. [JSON] Consulta Masiva con Datos JSON
+<br>Aquí puede ver las instrucciones para integrar por medio de datos Json
+<br>https://github.com/FacTronica/BoletaConsultaMasiva/blob/main/consulta_masiva_json.md
 
 
-Método 1 : [TXT] Consulta Masiva con Archivo Txt
-------------------------------------------------
-Para este método se debe crear un archivo de texto plano con el formato requerido.
+Formas de Uso de la API
+-----------------------
 
-Pasos a seguir:
-
-
-Para realizar el envío del archivo Txt a la Api se debe utilizar el siguiente comando curl:
-```
-curl --form "archivito=@archivo.txt" https://dominio.cl/api/factronica_boleta_consultamasiva/index.php
-
-```
+La Api Factronica se puede Adquirir de 2 formas; como servicio o como compra.
+<br>La opción como Servicio tiene un costo mensual recurrente.
+<br>La opción como Venta tiene un costo de pago único y en este caso se entrega el código fuente para instalar en servidor propio.

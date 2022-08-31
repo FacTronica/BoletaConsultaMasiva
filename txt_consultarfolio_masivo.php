@@ -1,0 +1,67 @@
+<?php 
+#############################################################
+# FORMATO DE ARCHIVO TXT PARA CONSULTAR BOLETAS MASIVAMENTE
+#############################################################
+#
+# RUT EMPRESA
+$RutEmisor[0]="22222222-2"; 
+$RutEmisor[1]="22222222-4"; 
+$RutEmisor[2]="22222222-4"; 
+#
+# TIPO DE BOLETA
+$TipoDte[0]=39;
+$TipoDte[1]=39;
+$TipoDte[2]=39;
+#
+# RUT CLIENTE
+$RutReceptor[0]="11111111-1";
+$RutReceptor[1]="11111111-1";
+$RutReceptor[2]="11111111-1";
+
+#
+# FOLIO DE LA BOLETA
+$FolioDte[0]=40670; 
+$FolioDte[1]=40671; 
+$FolioDte[2]=40672; 
+#
+# MONTO TOTAL BOLETA
+$MontoTotal[0]=4000;
+$MontoTotal[1]=430000;
+$MontoTotal[2]=435000;
+#
+# FECHA DE EMISION DE LA BOLETA
+$FechaEmision[0]="12-08-2022";
+$FechaEmision[1]="13-08-2022";
+$FechaEmision[2]="16-08-2022";
+
+#
+# DIRECTORIO CON LA RESPUESTA DEL SII
+$FACTRONICA["DIRJSON"]="respuestas";
+#
+# ARCHIVO CON LA RESPUESTA DEL SII
+$FACTRONICA["ARCHIVOJSON"]="resultado.txt";
+
+#
+# MODULO DEL CERTIFICADO
+$FACTRONICA["Modulus"]="8fx66/ZMpMD1B6XYEkalP6BeQbzuMr2LBStElhmoMGSJOHXFar5f9Z7pKAMDp9+1
+3YA8NBnYKdDRzv/0vDdI4bKvL3vmBrKOTaRZ3Yx6hYzre58MUswWiKEVnOGXJXq4
+EzTS/WbdZhdX+g0Eq5RFrlhOq41HN4yNWYz/7B33eiSiD6pjBY2lb1JHhJCc3F3q
+d+SDuC/NofT+CCCH4uvITw=="; 
+#
+# EXPONENTE DEL CERTIFICADO
+$FACTRONICA["Exponent"]="AQAB"; 
+#
+# CERTIFICADO X509
+$FACTRONICA["X509Certificate"]="MIIGWjCCBUKgAwIBAgIIaFk5Rl0vW44wDQYJKoZIhvcNAQELBQAwga8xCzAJBgNV
+BAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2Yg
+okLESH/feAzH8g0E15RPC+HGwz8xD4sjvBpBt5OFFWlkZHEQGvUY0ZOq5zz83EGM
+N4BDhW2Rx0WGy8Am/geewYp/J0vJ/iW3Z1K/oTJuXxo8G96EKew1t2hzMEKedw==";
+#
+# LLAVE PRIVADA SIN CLAVE
+$FACTRONICA["PrivKey"]="-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA8fx66/ZMpMD1B6XYEkalP6BeQbzuMr2LBStElhmoMGSJOHXF
+F1kvV4Wut99g7R+gpw8RLOYOlkRTb4rj1ef3G7dpM/C9BT4N09vNnuKxN5ajTvsx
+6KcqF60Wg6THU8yu6GmvqzRepF0MpImIrXVjK+77/aBxHtqEajib+g==
+-----END RSA PRIVATE KEY-----"; 
+
+?>

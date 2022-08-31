@@ -9,8 +9,8 @@ Pasos a seguir:
 
 Paso 1:
 -------
-Crear un archivo de texto plano con el formato requerido.\n
-En este archivo se deben incluir los datos de todas las boletas que se requiere consultar.\n
+Crear un archivo de texto plano con el formato requerido.
+En este archivo se deben incluir los datos de todas las boletas que se requiere consultar.
 Aquí un ejemplo del formato del archivo plano:
 
 https://github.com/FacTronica/BoletaConsultaMasiva/blob/main/txt_consultarfolio_masivo.php
